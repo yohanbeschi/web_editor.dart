@@ -2,7 +2,7 @@
 This client/server application allows users to try Dart in a browser without installing any tool.
 
 ## Screenshots
-[See screenshots] (TODO)
+(TODO)
 
 ## Where to start ?
 Before starting the server you need to modify the 5 constants in the file lib/src/server.dart, using the appropriate values.
