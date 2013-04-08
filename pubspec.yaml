@@ -1,0 +1,8 @@
+name: web_editor
+description: A sample web application
+dependencies:
+  pwt_proto:
+    git:
+      ref: '20130402'
+      url: git://github.com/yohanbeschi/pwt_proto.dart
+  browser: any

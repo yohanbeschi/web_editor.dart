@@ -1,0 +1,143 @@
+/*
+[contenteditable] {
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+  font-family: Courier;
+}
+
+[contenteditable]:focus {
+    outline: none;
+}*/
+
+
+html {
+    height: 100%;
+}
+body {
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+a {
+    color: #000099;
+}
+#wrap, #about {
+    background: none repeat scroll 0 0 #FFFFDD;
+    bottom: 25%;
+    left: 0;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+#about {
+    display: none;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    overflow: auto;
+    padding: 10px 40px;
+    z-index: 1;
+}
+#about p {
+    max-width: 520px;
+}
+#about ul {
+    max-width: 480px;
+}
+#about li {
+    margin-bottom: 1em;
+}
+#code, #output, pre, .lines {
+    font-family: Menlo,Courier New,monospace;
+    font-size: 11pt;
+}
+#code {
+    background: inherit;
+    border: 1px none;
+    float: right;
+    height: 100%;
+    margin: 0;
+    outline: 1px none;
+    padding: 0;
+    resize: none;
+    width: 100%;
+}
+#output {
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 75%;
+}
+#output .loading {
+    color: #999999;
+}
+#output.error {
+    color: #990000;
+}
+#output pre {
+    margin: 0;
+    /*white-space:pre-line;*/
+}
+#banner {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#head {
+    float: left;
+    font-family: Georgia,serif;
+    font-size: 30px;
+    padding: 8px;
+}
+#controls {
+    float: left;
+    padding: 10px;
+}
+#aboutControls {
+    float: right;
+    padding: 10px;
+}
+input[type="button"] {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+}
+input[type="button"]:hover {
+    background: none repeat scroll 0 0 #666666;
+    color: white;
+}
+#shareURL {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    color: black;
+    font-size: 16px;
+    width: 350px;
+}
+.lines {
+    float: left;
+    overflow: hidden;
+    text-align: right;
+}
+.lines div {
+    color: lightgray;
+    padding-right: 5px;
+}
+.lineerror {
+    background: none repeat scroll 0 0 #FFDDDD;
+    color: red;
+}
+.exit {
+    color: lightgray;
+}
